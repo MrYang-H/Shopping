@@ -35,6 +35,13 @@ public class User implements Serializable {
 
     private Date updateTime;
 
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
 
 }
